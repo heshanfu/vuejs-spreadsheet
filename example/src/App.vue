@@ -1,10 +1,8 @@
 <template>
   <div id="app">
     <vue-table
-      ref="vueTable"
       :disable-cells="disableCells"
       :disable-sort-thead="disableSortThead"
-      :drag-to-fill="dragToFill"
       :headers="headers"
       :loading="loading"
       :new-data="newData"
